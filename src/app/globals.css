@@ -2,26 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+/* ลบโค้ด @media (prefers-color-scheme: dark) ด้านล่างออกให้หมด */
+/* เพื่อป้องกันไม่ให้หน้าจอกลายเป็นสีดำเมื่อเปิดโหมด Dark mode ในเครื่อง */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+	--foreground-rgb: 0, 0, 0;
+	--background-start-rgb: 255, 255, 255;
+	--background-end-rgb: 255, 255, 255;
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+	color: rgb(var(--foreground-rgb));
+	background: rgb(var(--background-start-rgb));
 }
