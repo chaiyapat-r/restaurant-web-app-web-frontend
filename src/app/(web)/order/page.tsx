@@ -428,7 +428,7 @@ function MenuPageContent() {
 					</div>
 				</div>
 
-				<div className="absolute bottom-8 right-8 z-20">
+				<div className="fixed bottom-8 right-8 z-20">
 					<button
 						onClick={() => setIsCartOpen(true)}
 						className="bg-[#FF6B35] w-16 h-16 sm:w-20 sm:h-20 rounded-[1.5rem] shadow-2xl flex items-center justify-center text-white relative active:scale-95 transition-all"
