@@ -24,6 +24,18 @@ export default function RootPage() {
 				</p>
 			</div>
 
+			<p className="mt-4 text-sm text-gray-500 text-center">
+				Looking for demo access?
+				<a
+					href="https://github.com/chaiyapat-r/restaurant-web-app-web-frontend/blob/master/README.md"
+					target="_blank"
+					rel="noopener noreferrer"
+					className="text-[#FF6B35] hover:underline font-medium ml-1"
+				>
+					Check README.md
+				</a>
+			</p>
+
 			<p className="absolute bottom-10 text-gray-400 text-sm font-medium">
 				© 2026 Orange Table Restaurant
 			</p>
