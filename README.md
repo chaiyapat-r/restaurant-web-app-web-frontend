@@ -1,3 +1,5 @@
+> **Note on Demo Performance:** > The backend is hosted on **Render's Free Tier**. If the application hasn't been accessed recently, the server may be in "Sleep Mode." Please allow **30-60 seconds** for the initial request to "wake up" the server. Once awake, the app will perform normally.
+
 # Restaurant Customer Storefront (Web-Frontend)
 
 A sleek, mobile-responsive web application designed for a seamless digital dining experience. This frontend allows customers to browse menus, customize orders, and track their dining history.
